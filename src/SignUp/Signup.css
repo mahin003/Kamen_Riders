@@ -1,0 +1,102 @@
+.SignUpForm{
+    margin-top:20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid red;
+}
+.Form{
+    text-align:left;  
+    padding-left: 20px;
+}
+.Form input {
+    width: 90%;
+    height:24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(240, 230, 227);
+    border-bottom: 1px solid black;
+    border: none;
+    border-bottom: 2px solid red;
+}
+::placeholder {
+    color:orangered;
+    opacity: 1; /* Firefox */   
+    font-size:13px;
+}
+
+.Form input[type=submit] {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    height: 27px;
+    background-color: orangered;
+  }
+
+.NewAcnt{
+    width:70%;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:12px;
+    margin-bottom:25px;
+}
+.NewAcntLink{
+    font-size: 13px;
+    color: rgb(128, 35, 235);
+}
+
+.NewAuth{
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  
+  margin-top: 10px;
+} 
+
+.NewAuth label{
+  width:70%;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+.authLink{
+  width:40%;
+  height:22px;
+  border: 1px solid red;
+  border-radius: 10px;
+  display:flex;
+  justify-content:space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.authLink label:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 690px) {
+.SignUpForm{
+      width:70%;
+  }
+  .Form{
+      padding-left: 10px;
+  }
+  .Form input{
+      width:97%;
+  }
+  .createAcnt{
+      width:97%;
+     
+  }
+  .NewAcnt{
+      width:90%;
+     
+  }
+  .NewAuth{
+      width:80%;
+  }
+  .authLink{
+      width:70%;
+  }
+}

@@ -1,0 +1,52 @@
+.Header{
+    width:76%;
+   /* background-color: red;*/
+   /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+    margin-bottom: 5px;
+}
+.navbar{
+    width:56%;
+    /* border: 2px solid blue; */
+    display:flex;
+    justify-content:space-between;
+    font-size: 14px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(75, 26, 87);
+    font-weight: bold;
+}
+.LogInButton{
+    width:70px;
+    height:26px;
+    background-color:rgba(255, 255, 255, 0.198);
+
+}
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(75, 26, 87);;
+}
+@media only screen and (max-width: 690px) {
+    .Header {
+        width:85%;
+        height:auto;
+        flex-direction:column;
+     }  
+     .navbar{
+        width:100%;
+        /*border: 2px solid blue;*/
+    }
+     
+  }
